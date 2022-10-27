@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" />
 </head>
 
 <body>
     <!-- Хедер -->
     <header>
         <nav>
-            <ul>
-                <li>
-                    <a href="/">LIFESTYLE</a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="link" href="/">LIFESTYLE</a>
                 </li>
-                <li>
-                    <a href="./pages/photodiary.html">PHOTODIARY</a>
+                <li class="nav-item">
+                    <a class="link" href="./pages/photodiary.html">PHOTODIARY</a>
                 </li>
-                <li>
-                    <a href="./pages/music.html">MUSIC</a>
+                <li class="nav-item">
+                    <a class="link" href="./pages/music.html">MUSIC</a>
                 </li>
-                <li>
-                    <a href="./pages/travel.html">TRAVEL</a>
+                <li class="nav-item">
+                    <a class="link" href="./pages/travel.html">TRAVEL</a>
                 </li>
             </ul>
         </nav>
@@ -31,41 +34,41 @@
 
     <!-- Оснoвний контент Main -->
     <main>
-        <h1>Photoblog</h1>
-        <ul>
-            <li>
+        <h1 hidden>Photoblog</h1>
+        <ul class="main-list">
+            <li class="main-item">
                 <img src="./images/1.jpg" alt="lifestyle" />
-                <p>LIFESTYLE</p>
-                <h2>More than just a music festival </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="card-name">LIFESTYLE</p>
+                <h2 class="card-title">More than just a music festival </h2>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea.</p>
-            <li>
+            <li class="main-item">
                 <img src="./images/2.jpg" alt="coffe" />
-                <p>LIFESTYLE</p>
-                <h2>Life tastes better with coffee</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="card-name">LIFESTYLE</p>
+                <h2 class="card-title">Life tastes better with coffee</h2>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea.</p>
             </li>
-            <li>
+            <li class="main-item">
                 <img src="./images/3.jpg" alt="PHOTODAIRY" />
-                <p>PHOTODAIRY</p>
-                <h2>American dream</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="card-name">PHOTODAIRY</p>
+                <h2 class="card-title">American dream</h2>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea.</p>
             </li>
-            <li>
+            <li class="main-item">
                 <img src="./images/4.jpg" alt="PHOTODAIRY" />
-                <p>PHOTODAIRY</p>
-                <h2>A day exploring the Alps</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="card-name">PHOTODAIRY</p>
+                <h2 class="card-title">A day exploring the Alps</h2>
+                <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea.</p>
             </li>
         </ul>
-        <button type="button">Load more</button>
+        <button class="card-button" type="button">Load more</button>
     </main>
 </body>
 
